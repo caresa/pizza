@@ -1,8 +1,10 @@
 class Pizza
+attr_accessor :toppings
 
-  # def initialize(topping)
+  def initialize(toppings = [])
+    @toppings = toppings
+  end
 
-  # end
 end
 
 class Topping
