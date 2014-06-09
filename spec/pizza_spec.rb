@@ -60,6 +60,12 @@ describe Pizza do
     end
   end
 
+  describe '.deliver!' do
+    it 'delivers a pizza within 30 minutes' do
+      delivers = Timecop.freeze(Time.now + 30*60)
+
+    end
+
 end
 
 
